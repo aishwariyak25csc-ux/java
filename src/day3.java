@@ -1,4 +1,4 @@
-void main(){
+/*void main(){
     int n=5;
     for(int row=1;row<=n;row++){
         for(int column=1;column<=row;column++){
@@ -7,4 +7,20 @@ void main(){
         }
         System.out.println();
     }
-}
+} */
+void main(){
+    int []marks={87,32,44,89,32};
+    System.out.println("pass mark");
+    for (int mark:marks){
+        if (mark >= 40) {
+            System.out.println(mark +"");
+        }
+        }
+    System.out.println("fail marks");
+    for(int mark:marks){
+        if(mark<40){
+            System.out.println(mark+"");
+        }
+    }
+    }
+
