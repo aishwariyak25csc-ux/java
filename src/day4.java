@@ -16,7 +16,7 @@
         System.out.println();
         }
 }*/
-void main() {
+/*void main() {
     int[][] attendance=new int[5][3];
     int[][] studentattendance={
             {0,1,0},
@@ -37,4 +37,13 @@ void main() {
         System.out.println(" ");
     }
 
+}*/
+void main(){
+    int result = div(5,4);
+    System.out.println(result);
+    System.out.println(div(5,5));
+
+    }
+    public int div(int a,int b){
+    return a/b;
 }
