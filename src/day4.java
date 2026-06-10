@@ -38,7 +38,7 @@
     }
 
 }*/
-void main(){
+/*void main(){
     int result = div(5,4);
     System.out.println(result);
     System.out.println(div(5,5));
@@ -46,4 +46,18 @@ void main(){
     }
     public int div(int a,int b){
     return a/b;
+}*/
+/*void main(){
+    String name ="vetias";
+    System.out.println(name .toLowerCase());
+}
+ */
+void main(){
+    System.out.println("Enter your name:");
+    Scanner sc=new Scanner(System.in);
+    String name=sc.nextLine();
+    System.out.println("Enter your department:");
+    String department=sc.nextLine();
+    System.out.println("Enter your age:");
+    int age=sc.nextInt();
 }
