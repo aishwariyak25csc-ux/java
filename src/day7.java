@@ -71,11 +71,15 @@ public class day7 {
 
               }
           }
+
+
           static class cardpayment extends payment {
               @Override
               void transfer() {
                   System.out.println("cardpayment ");
               }
+
+
 
           }
           static class NBpayment extends payment{
