@@ -25,6 +25,8 @@ public  class day8 {
         }
     }
 
+
+
     static void main() {
         System.out.println(LANGUAGES.TM.value);
         System.out.println(LANGUAGES.EN.value);
