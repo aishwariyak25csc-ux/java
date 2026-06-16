@@ -8,7 +8,7 @@
         System.out.println();
     }
 }*/
-/*void main(){
+void main(){
     int []marks={87,32,44,89,32};
     System.out.println("pass mark");
     for (int mark:marks){
@@ -22,6 +22,6 @@
             System.out.println(mark+"");
         }
     }
-}*/
+}
 
 
