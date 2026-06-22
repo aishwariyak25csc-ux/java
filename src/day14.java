@@ -1,5 +1,3 @@
-
-
 public class day14 {
     static class Student{
         String name;
