@@ -31,9 +31,9 @@
 
         String type = "Whatsapp";
         getNotification(factory, type)
-                .send("4453543543", "Hello World");
-    }
-}*/
+                .send("4453543543","helo")
+
+ */
 
 public  class day14_factory {
 
